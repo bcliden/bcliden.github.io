@@ -6,6 +6,6 @@
   "sort": "pushed",
   "order": "asc",
   "includeFork": true,
-  "theme": "dark.css"
+  "theme": "light.css"
  }
 ]

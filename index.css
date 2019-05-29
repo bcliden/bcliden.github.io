@@ -272,13 +272,17 @@ body{
 }
 
 .projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem 1rem;
+}
+
+.projects a {
+  width: calc(50% - 35px); 
+  /* 30px is the gutter size in magic grid */
+  display: flex;
+  text-decoration: none;
 }
 
 .projects section {
-    width:85%;
+    width: 100%;
     padding:2.5vh 5%;
     display:inline-block;
     border-radius:5px;
@@ -287,8 +291,6 @@ body{
     box-shadow:0px 0px 0px rgb(0, 0, 0, 0);
     transition:0.4s ease-in-out;
     transform:scale(1);
-    /* height calculated to compensate for padding */
-    height: calc(100% - 5vh); 
 }
 
 .projects section:hover {
@@ -296,9 +298,6 @@ body{
     border:1px solid rgb(0, 0, 0, 0);
     box-shadow:0px 15px 35px rgb(0, 0, 0, 0.06);
     transform:scale(1.03);
-}
-
-.projects a {
 }
 
 .section_title {
@@ -338,7 +337,6 @@ body{
 }
 
 #blogs {
-    columns:2;
 }
 
 #blogs section {
@@ -407,15 +405,14 @@ body{
         margin:0px;
     }
     .projects {
-        grid-template-columns: unset;
+    }
+    .projects a {
+      width: 100%;
     }
     .projects section {
         width:88%;
     }
-    .projects a {
-    }
     #blogs {
-        columns:1;
     }
     #blogs section {
         width:98%;
@@ -456,9 +453,33 @@ body{
 ::-webkit-scrollbar-track {background:var(--bg-color);}
 ::-webkit-scrollbar-thumb {background:var(--text-color);}
 :root {
-  --bg-color: #fff;
-  --text-color: rgb(10, 10, 10);
-  --blog-gray-color: rgb(80, 80, 80);
-  --background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.4), rgb(10, 10, 10, 0.4)), url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=500&h=1000&q=80&fit=crop");
-  --background-background: #fff;
+  --bg-color: rgb(10, 10, 10);
+  --text-color: #fff;
+  --blog-gray-color: rgb(180, 180, 180);
+  --background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.6), rgb(10, 10, 10, 1)), url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=500&h=1000&q=80&fit=crop");
+  --background-background: linear-gradient(0deg, rgba(10, 10, 10, 1), rgba(10, 10, 10, 0.6)),
+    url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=500&h=1000&q=80&fit=crop") center center fixed;
+  --height: 50vh;
+}
+#display h1 {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: #fff;
+}
+#blog-display h1 {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: #fff;
+}
+.projects section {
+  background: rgb(20, 20, 20);
+}
+#blog_section section {
+  background: rgb(20, 20, 20);
+}
+@media (max-width: 800px) {
+  :root {
+    --background-image: linear-gradient(0deg, rgba(10, 10, 10, 1), rgba(10, 10, 10, 0)),
+    url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=500&h=1000&q=80&fit=crop") !important;
+  }
 }

@@ -1,309 +1,450 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>bliden</title>
+    <title>Benjamin Liden's Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
     <link rel="stylesheet" href="index.css">
-<link rel="icon" href="https://avatars0.githubusercontent.com/u/27828594?v=4" type="image/png"></head>
+    <link rel="icon" href="https://avatars0.githubusercontent.com/u/27828594?v=4" type="image/png">
+</head>
 
 <body>
     <div id="loading">
         <div id="spinner"></div>
     </div>
     <div id="profile">
-        <div id="profile_img" style="background: url(https://avatars0.githubusercontent.com/u/27828594?v=4) center;"></div>
-        <div id="username"><span style="display:block;">Benjamin Liden</span><a href="https://github.com/bliden">@bliden</a></div>
-        <div id="userbio" style="display: block;">Web Dev. 
-Curious, kind, collaborative.</div>
+        <div id="profile_img" style="background: url(https://avatars0.githubusercontent.com/u/27828594?v=4) center;">
+        </div>
+        <div id="username"><span style="display:block;">Benjamin Liden</span><a
+                href="https://github.com/bcliden">@bcliden</a></div>
+        <div id="userbio" style="display: block;">Web Dev.
+            Curious, kind, collaborative.</div>
         <div id="about">
-                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
-                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
-                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://bliden.github.io">https://bliden.github.io</a></span>
-                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Washington, DC</span>
-                <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span></div>
+            <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+            <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+            <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a
+                    href="https://bcliden.github.io">https://bcliden.github.io</a></span>
+            <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Washington, DC</span>
+            <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span></div>
     </div>
     <div id="display">
         <div id="work">
             <h1>Work.</h1>
             <div class="projects" id="work_section">
-                        <a href="https://github.com/bliden/nlp-word-frequency" target="_blank">
-                        <section>
-                            <div class="section_title">nlp-word-frequency</div>
-                            <div class="about_section">
-                            <span style="display:block;">Natural Language Processing with Python. returns word frequency counts and more.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/hackernews-react" target="_blank">
-                        <section>
-                            <div class="section_title">hackernews-react</div>
-                            <div class="about_section">
+                <a href="https://github.com/bcliden/baro-pressure" target="_blank">
+                    <section>
+                        <div class="section_title">baro-pressure</div>
+                        <div class="about_section">
+                            <span style="display:block;">barometric pressure site to scope out potential migraine
+                                conditions</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Vue</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/eldiro" target="_blank">
+                    <section>
+                        <div class="section_title">eldiro</div>
+                        <div class="about_section">
+                            <span style="display:block;">Make a Language with Rust. Following along arzg's blog series
+                                here: https://arzg.github.io/lang/</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Rust</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/quizzard" target="_blank">
+                    <section>
+                        <div class="section_title">quizzard</div>
+                        <div class="about_section">
+                            <span style="display:block;">buzzer application for playing games with your friends. Join
+                                and host rooms just like Jackbox Games.</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/url-squish-api" target="_blank">
+                    <section>
+                        <div class="section_title">url-squish-api</div>
+                        <div class="about_section">
+                            <span style="display:block;">squish some URLs! API side</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/url-squish-client" target="_blank">
+                    <section>
+                        <div class="section_title">url-squish-client</div>
+                        <div class="about_section">
+                            <span style="display:block;">Squish some urls here with the VueJS client!</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Vue</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/family-tree-viz" target="_blank">
+                    <section>
+                        <div class="section_title">family-tree-viz</div>
+                        <div class="about_section">
+                            <span style="display:block;">d3 family tree visualization</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/digital-witchcraft-viz" target="_blank">
+                    <section>
+                        <div class="section_title">digital-witchcraft-viz</div>
+                        <div class="about_section">
+                            <span style="display:block;">d3 visualizations for data in the Digital Witch Project</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/nlp-word-frequency" target="_blank">
+                    <section>
+                        <div class="section_title">nlp-word-frequency</div>
+                        <div class="about_section">
+                            <span style="display:block;">Natural Language Processing with Python. returns word frequency
+                                counts and more.</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/hackernews-react" target="_blank">
+                    <section>
+                        <div class="section_title">hackernews-react</div>
+                        <div class="about_section">
                             <span style="display:block;">HN client built with ReactJS</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/helsinki-full-stack" target="_blank">
-                        <section>
-                            <div class="section_title">helsinki-full-stack</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/helsinki-full-stack" target="_blank">
+                    <section>
+                        <div class="section_title">helsinki-full-stack</div>
+                        <div class="about_section">
                             <span style="display:block;">solutions for the U. Helsinki Full Stack MOOC</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/mirrored-vue" target="_blank">
-                        <section>
-                            <div class="section_title">mirrored-vue</div>
-                            <div class="about_section">
-                            <span style="display:block;">Play with mirrored text in this toy app. Rewritten in Vue. Try looking at your screen in mirrors!</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Vue</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/chat2k" target="_blank">
-                        <section>
-                            <div class="section_title">chat2k</div>
-                            <div class="about_section">
-                            <span style="display:block;">really basic chat room featuring NestJS, Socket.IO, and rx BehaviorSubjects</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/game-studies-scraper" target="_blank">
-                        <section>
-                            <div class="section_title">game-studies-scraper</div>
-                            <div class="about_section">
-                            <span style="display:block;">scrapes the gamestudies.org site and builds a CSV of article/author/vol/iss/date</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/bliden.github.io" target="_blank">
-                        <section>
-                            <div class="section_title">bliden.github.io</div>
-                            <div class="about_section">
-                            <span style="display:block;">personal portoflio + blog (?)</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/airbnb-clone" target="_blank">
-                        <section>
-                            <div class="section_title">airbnb-clone</div>
-                            <div class="about_section">
-                            <span style="display:block;">a very airbnb-inspired site for practicing BehaviorSubject flows &amp; more :)</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/baro-meter" target="_blank">
-                        <section>
-                            <div class="section_title">baro-meter</div>
-                            <div class="about_section">
-                            <span style="display:block;">get recent and future barometer data in a cute graph. mainly so I can manage pressure migraines!</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/nest-ecommerce-api" target="_blank">
-                        <section>
-                            <div class="section_title">nest-ecommerce-api</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/mirrored-vue" target="_blank">
+                    <section>
+                        <div class="section_title">mirrored-vue</div>
+                        <div class="about_section">
+                            <span style="display:block;">Play with mirrored text in this toy app. Rewritten in Vue. Try
+                                looking at your screen in mirrors!</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Vue</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/chat2k" target="_blank">
+                    <section>
+                        <div class="section_title">chat2k</div>
+                        <div class="about_section">
+                            <span style="display:block;">really basic chat room featuring NestJS, Socket.IO, and rx
+                                BehaviorSubjects</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/game-studies-scraper" target="_blank">
+                    <section>
+                        <div class="section_title">game-studies-scraper</div>
+                        <div class="about_section">
+                            <span style="display:block;">scrapes the gamestudies.org site and builds a CSV of
+                                article/author/vol/iss/date</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/airbnb-clone" target="_blank">
+                    <section>
+                        <div class="section_title">airbnb-clone</div>
+                        <div class="about_section">
+                            <span style="display:block;">a very airbnb-inspired site for practicing BehaviorSubject
+                                flows &amp; more :)</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/baro-meter" target="_blank">
+                    <section>
+                        <div class="section_title">baro-meter</div>
+                        <div class="about_section">
+                            <span style="display:block;">get recent and future barometer data in a cute graph. mainly so
+                                I can manage pressure migraines!</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/nest-ecommerce-api" target="_blank">
+                    <section>
+                        <div class="section_title">nest-ecommerce-api</div>
+                        <div class="about_section">
                             <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/node-stream-example" target="_blank">
-                        <section>
-                            <div class="section_title">node-stream-example</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/anguish-conf-2019" target="_blank">
-                        <section>
-                            <div class="section_title">anguish-conf-2019</div>
-                            <div class="about_section">
-                            <span style="display:block;">Anguish Conference - Georgetown University Graduate Conference 2019. March 30, 2019.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/ngrx-recipe-app" target="_blank">
-                        <section>
-                            <div class="section_title">ngrx-recipe-app</div>
-                            <div class="about_section">
-                            <span style="display:block;">Angular front end for the previous NestJS recipe api. Using NgRx and PrimeNG</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/linux-config-notes" target="_blank">
-                        <section>
-                            <div class="section_title">linux-config-notes</div>
-                            <div class="about_section">
-                            <span style="display:block;">notes about my W520 config on Linux</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Shell</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/nestjs-recipe-api" target="_blank">
-                        <section>
-                            <div class="section_title">nestjs-recipe-api</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/node-stream-example" target="_blank">
+                    <section>
+                        <div class="section_title">node-stream-example</div>
+                        <div class="about_section">
+                            <span style="display:none;">Simple NodeJS streaming P.O.C.</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/anguish-conf-2019" target="_blank">
+                    <section>
+                        <div class="section_title">anguish-conf-2019</div>
+                        <div class="about_section">
+                            <span style="display:block;">Anguish Conference - Georgetown University Graduate Conference
+                                2019. March 30, 2019.</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/ngrx-recipe-app" target="_blank">
+                    <section>
+                        <div class="section_title">ngrx-recipe-app</div>
+                        <div class="about_section">
+                            <span style="display:block;">Angular front end for the previous NestJS recipe api. Using
+                                NgRx and PrimeNG</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/linux-config-notes" target="_blank">
+                    <section>
+                        <div class="section_title">linux-config-notes</div>
+                        <div class="about_section">
+                            <span style="display:block;">linux notes / config files</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Shell</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/nestjs-recipe-api" target="_blank">
+                    <section>
+                        <div class="section_title">nestjs-recipe-api</div>
+                        <div class="about_section">
                             <span style="display:block;">api server for recipe service</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/scripts" target="_blank">
-                        <section>
-                            <div class="section_title">scripts</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/learnyounode-solutions" target="_blank">
+                    <section>
+                        <div class="section_title">learnyounode-solutions</div>
+                        <div class="about_section">
+                            <span style="display:block;">solutions for `learnyounode` cli workshop</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/scripts" target="_blank">
+                    <section>
+                        <div class="section_title">scripts</div>
+                        <div class="about_section">
                             <span style="display:block;">misc utility scripts</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Shell</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/cutups-react" target="_blank">
-                        <section>
-                            <div class="section_title">cutups-react</div>
-                            <div class="about_section">
-                            <span style="display:block;">A website letting the user try the Cut-Up technique of manipulating text, as popularized by William S. Burroughs. (rewritten in React)</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/mirrored" target="_blank">
-                        <section>
-                            <div class="section_title">mirrored</div>
-                            <div class="about_section">
-                            <span style="display:block;">toy react app for word fun. type in words &amp; phrases to be flooded by symbols!</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/dhWitchcraft" target="_blank">
-                        <section>
-                            <div class="section_title">dhWitchcraft</div>
-                            <div class="about_section">
-                            <span style="display:block;">Digital essay on Witchcraft- for Digital Humanities at Georgetown. Written by Tess Henthorne, Bridget Sellers, and Elizabeth Crowley Webber.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/recipe-box" target="_blank">
-                        <section>
-                            <div class="section_title">recipe-box</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Shell</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/cutups-react" target="_blank">
+                    <section>
+                        <div class="section_title">cutups-react</div>
+                        <div class="about_section">
+                            <span style="display:block;">A website letting the user try the Cut-Up technique of
+                                manipulating text, as popularized by William S. Burroughs. (rewritten in React)</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/mirrored" target="_blank">
+                    <section>
+                        <div class="section_title">mirrored</div>
+                        <div class="about_section">
+                            <span style="display:block;">toy react app for word fun. type in words &amp; phrases to be
+                                flooded by symbols!</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/dhWitchcraft" target="_blank">
+                    <section>
+                        <div class="section_title">dhWitchcraft</div>
+                        <div class="about_section">
+                            <span style="display:block;">Digital essay on Witchcraft- for Digital Humanities at
+                                Georgetown. Written by Tess Henthorne, Bridget Sellers, and Elizabeth Crowley
+                                Webber.</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/recipe-box" target="_blank">
+                    <section>
+                        <div class="section_title">recipe-box</div>
+                        <div class="about_section">
                             <span style="display:block;">A recipe sharing website for all.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bliden/cutups" target="_blank">
-                        <section>
-                            <div class="section_title">cutups</div>
-                            <div class="about_section">
-                            <span style="display:block;">A website letting the user try the Cut-Up technique of manipulating text, as popularized by William S. Burroughs.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-</div>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/diy_api" target="_blank">
+                    <section>
+                        <div class="section_title">diy_api</div>
+                        <div class="about_section">
+                            <span style="display:block;">Basic todo app API. Built with MongoDB/Node/Express.</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/cutups" target="_blank">
+                    <section>
+                        <div class="section_title">cutups</div>
+                        <div class="about_section">
+                            <span style="display:block;">A website letting the user try the Cut-Up technique of
+                                manipulating text, as popularized by William S. Burroughs.</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bcliden/travelSite" target="_blank">
+                    <section>
+                        <div class="section_title">travelSite</div>
+                        <div class="about_section">
+                            <span style="display:block;">A generic travel booking site.</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a></div>
         </div>
         <div id="forks" style="display:none;">
             <h1>Forks.</h1>
@@ -362,30 +503,32 @@ Curious, kind, collaborative.</div>
 
     <script>
         const magicProjectsGrid = new MagicGrid({
-          container: '#work_section',
-          animate: false,
-          gutter: 30, // default gutter size
-          static: true,
-          useMin: false,
-          maxColumns: 2,
-          useTransform: true
+            container: '#work_section',
+            animate: false,
+            gutter: 30, // default gutter size
+            static: true,
+            useMin: false,
+            maxColumns: 2,
+            useTransform: true
         });
 
         const magicForksGrid = new MagicGrid({
-          container: '#forks_section',
-          animate: false,
-          gutter: 30, // default gutter size
-          static: true,
-          useMin: false,
-          maxColumns: 2,
-          useTransform: true
+            container: '#forks_section',
+            animate: false,
+            gutter: 30, // default gutter size
+            static: true,
+            useMin: false,
+            maxColumns: 2,
+            useTransform: true
         })
 
         $('document').ready(() => {
-          magicProjectsGrid.listen();
-          magicForksGrid.listen();
+            magicProjectsGrid.listen();
+            magicForksGrid.listen();
         });
     </script>
 
 
-</body></html>
+</body>
+
+</html>

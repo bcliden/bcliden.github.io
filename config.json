@@ -2,10 +2,15 @@
  {
   "username": "bcliden",
   "name": "Benjamin Liden",
-  "userimg": "https://avatars0.githubusercontent.com/u/27828594?v=4",
-  "sort": "created",
-  "order": "asc",
+  "userimg": "https://avatars.githubusercontent.com/u/27828594?v=4",
+  "sort": "pushed",
+  "order": "desc",
   "includeFork": false,
-  "theme": "light.css"
+  "theme": "light.css",
+  "types": [
+   "all"
+  ],
+  "twitter": "bcliden",
+  "linkedin": "benjamin-liden-69977783"
  }
 ]

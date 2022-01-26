@@ -1,1 +1,1 @@
-node .\bin\gitfolio.js build bcliden -t light -b 'https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=500&h=1000&q=80&fit=crop' -s pushed -o desc -l benjamin-liden-69977783 -w b
+node .\bin\gitfolio.js build bcliden -t light -b 'https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=500&h=1000&q=80&fit=crop' -s pushed -o desc -l benjamin-liden-69977783 -w bcliden
